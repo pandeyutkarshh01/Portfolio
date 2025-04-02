@@ -394,6 +394,9 @@ nav .fas{
     .header-text h1{
         font-size: 40px;
     }
+    #element{
+        margin-top: 20px;
+    }
     nav .fas{
         display: block;
         font-size: 25px;

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Pandey - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d82c6f6fc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- ---------------Head Section------------------- -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p><span id="element"></span></p>
+            <h1>Hey, I'm <span>Utkarsh</span><br> From India</h1>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------About--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>Hello! I'm Utkarsh Pandey, a versatile professional with a passion for both technology and music. I’m a full-stack web developer, a mixing/mastering engineer, and a rapper, blending creativity and technical skills in everything I do.
+
+                        As a developer, I specialize in HTML, CSS, JavaScript, and frameworks like Django and Flask. I build responsive, user-friendly websites and applications, and have experience deploying solutions on AWS and working with MySQL for robust database management.
+                        
+                        On the music side, I’ve mixed and mastered over 50 songs that are now available globally. My work as a mixing/mastering engineer allows me to fine-tune audio and help artists elevate their sound to professional levels. And as a rapper, I bring my own voice to the stage, using my lyrics and flow to express creativity in a unique way.
+                        
+                        Whether I'm developing the next great web app or laying down a track, I approach every project with passion, precision, and a relentless drive for quality.
+                        
+                        Feel free to explore my portfolio and reach out if you’re interested in collaborating or learning more about my work.
+                        
+                        </p>
+                        
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li class="skill-head"><h3>Web Development</h3>                            
+                                <ul>
+                                    <li><strong>HTML</strong>: Expert in building structured, semantic, and accessible web pages.</li>
+                                    <li><strong>CSS</strong>: Proficient in designing responsive, mobile-first layouts and UI elements.</li>
+                                    <li><strong>JavaScript</strong>: Experienced in creating dynamic, interactive web features and enhancing user experiences.</li>
+                                    <li><strong>Django</strong>: Skilled in building robust and scalable web applications using the Django framework.</li>
+                                    </ul>
+                            </li>
+
+                            <li class="skill-head"><h3>Cloud</h3>
+                                <ul>
+                                    <li><strong>AWS</strong>: Proficient in deploying and managing applications in the AWS ecosystem, including EC2, S3, and RDS.</li>
+                                  </ul>
+                            </li>
+
+                            <li class="skill-head"><h3>Database</h3>
+                                <ul>
+                                    <li><strong>MySQL</strong>: Experienced with relational database design, writing efficient queries, and optimizing performance.</li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="skill-head"><h3>Mixing & Mastering Engineer</h3>
+                                <ul>
+                                    <li><strong>Audio Engineering</strong>: Over 50 songs professionally mixed and mastered, ensuring polished, industry-quality sound.</li>
+                                  </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <h3>2023 - current</h3>
+                                <p>Developed and designed websites for a local college and a microfinance company, enhancing their digital presence and providing user-friendly, responsive websites.</p>
+                            </li>
+                            <br>
+                            <li>
+                                <h3>2023 - current</h3>
+                                <p><b>Freelance Web Developer: </b>Creating customized websites for local businesses, focusing on clean design, responsive layouts, and seamless user experiences.</p>
+                            </li>
+                            <br>
+                            <li>
+                                <h3>2022 - current</h3>
+                                <p><b>Mixing & Mastering Engineer: </b>Professionally mixed and mastered over 50 songs, ensuring high-quality sound and clarity across various music genres.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <h3><b>2021 - 2024</b></h3>
+                                <p>Completed the Bachelor's degree in <b><i>Mathematics</i></b> at Veer Bahadur Singh Purvanchal University, Jaunpur.</p>
+                            </li>
+                            <br>
+                            <li>
+                                <h3><b>2019 - 2021</b></h3>
+                                <p>Completed Intermediate studies at Government City Inter College, <b><i>UP Board</i></b>, Ghazipur.</p>
+                            </li>
+                            <br>
+                            <li>
+                                <h3><b>2017 - 2019</b></h3>
+                                <p>Completed High School education at Shree Krishna Inter College, <b><i>UP Board</i></b>, Ghazipur.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------Services------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>"Specializing in custom web development, creating responsive, user-friendly websites using HTML, CSS, JavaScript, Django, and Flask technologies."</p>
+                <!-- <a href="#">Learn more....</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Designing</h2>
+                <p>"Providing creative web design solutions, focusing on aesthetic, responsive, and intuitive layouts to enhance user experience and engagement."</p>
+                <!-- <a href="#">Learn more....</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Mixing &amp; Mastering</h2>
+                <p>"Offering professional mixing and mastering services, ensuring high-quality sound, clarity, and polish for your music across all genres."</p>
+                <!-- <a href="#">Learn more....</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------------Portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/school.jpg" alt="">
+                <div class="layer">
+                    <h3>College Website</h3>
+                    <p>Created a fullstack college websites that has all features that are required in a college like Addmission form, Examination Form, Transfer Certificate downloading and many more.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bank.jpg" alt="">
+                <div class="layer">
+                    <h3>Microfinance Bank Website</h3>
+                    <p>Created a Fullstack Microfinance bank's website on my own and gave all features that the client required.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/music.jpg" alt="">
+                <div class="layer">
+                    <h3>Mix/Master Songs</h3>
+                    <p>Mixed and mastered over 50 songs that are globally available and people are loving it.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+
+<!-- ------------------Contact------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> getofficialhazy@gmail.com </p>
+                <p><i class="fa-solid fa-phone"></i> Connect me on instagram or send email.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61571272774010"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hazyofficials/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://in.linkedin.com/in/utkarsh-pandey-857064301"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form method="post" id="contactForm">
+                    <input type="text" name="name" placeholder="Your full name" required>
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+
+<!-- -----------------------Copyright--------------------- -->
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Utkarsh Pandey. All rights reserved. <a style="color: white;" href="#"><b>Terms and Conditions</b></a> </p> 
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Desginer', 'Mixing &amp; Mastering Engineer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
